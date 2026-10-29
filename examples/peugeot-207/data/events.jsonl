@@ -1,0 +1,2 @@
+{"id": "2026-02-01-001", "date": "2026-02-01", "km": 121500, "type": "service", "items": ["oil_change", "air_filter"], "cost": 150000, "shop": "Example Garage", "document": null, "notes": "DEMO EVENT, not a real car. Shows a logged routine service."}
+{"id": "2026-03-10-001", "date": "2026-03-10", "km": null, "type": "repair", "items": ["battery_replace"], "cost": null, "shop": null, "document": null, "notes": "DEMO EVENT, not a real car. Shows a date-only event with an unknown odometer."}

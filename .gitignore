@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Generated per-car artefacts. The example keeps its own demo data on purpose.
+examples/peugeot-207/reports/*.md
+!examples/peugeot-207/reports/.gitkeep
+
+# Local car workspaces created inside this repository
+/cars/

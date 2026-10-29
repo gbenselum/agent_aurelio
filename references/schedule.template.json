@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "_comment": "Template schedule. Replace currency and market for your country, then replace the three example items with items you derived from a real source. Delete an example rather than leaving a number you cannot defend.",
+  "currency": "ARS",
+  "market": "Argentina",
+  "price_basis": {
+    "source": "unknown - name the source of your cost bands",
+    "date": "YYYY-MM",
+    "note": "Bands are order-of-magnitude, not quotes. Re-baseline when the basis is older than a quarter."
+  },
+  "items": [
+    {
+      "id": "oil_change",
+      "name": "Engine oil + oil filter",
+      "interval_km": 10000,
+      "interval_months": 12,
+      "risk": "high",
+      "applies": {},
+      "spec": "Grade and approval from the manual for this engine code. Capacity with filter: confirm on the dipstick.",
+      "if_unknown": "Change now. Oil is the cheapest insurance on an old engine.",
+      "cost_band": [0, 0],
+      "notes": "EXAMPLE ITEM. Replace the interval and the band with values from the manufacturer plan for this engine and market."
+    },
+    {
+      "id": "brake_fluid",
+      "name": "Brake fluid",
+      "interval_km": 40000,
+      "interval_months": 24,
+      "risk": "critical",
+      "applies": {},
+      "spec": "DOT4 unless the manual says otherwise. Bleed all four corners.",
+      "if_unknown": "Replace now. Fluid absorbs water and boils under load.",
+      "cost_band": [0, 0],
+      "notes": "EXAMPLE ITEM. Time matters more than distance. A 5-year-old fluid can be at boiling point after two hard stops."
+    },
+    {
+      "id": "technical_inspection",
+      "name": "Periodic technical inspection",
+      "interval_km": 0,
+      "interval_months": 12,
+      "risk": "high",
+      "applies": {},
+      "spec": "Depends on the market: interval, fee, documents and the items checked. Put the local rule here.",
+      "if_unknown": "Look up the rule for this region and book the appointment.",
+      "cost_band": [0, 0],
+      "notes": "EXAMPLE ITEM. Time-only: interval_km is 0. Copy the exact local rule into spec, including which month applies."
+    }
+  ]
+}
