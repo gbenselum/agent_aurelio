@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/aurelio.jpg" alt="Aurelio, a mechanic in worn blue overalls, holding a wrench" width="200">
+</p>
+
 # agent_aurelio
 
 An agent skill that researches a car and then keeps an auditable maintenance record for it.
