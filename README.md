@@ -133,6 +133,7 @@ looking for `data/vehicle.json`.
 | [`references/schedule-schema.md`](references/schedule-schema.md) | How to build `schedule.json`: fields, risk levels, bucket rules |
 | [`references/triage-protocol.md`](references/triage-protocol.md) | Symptom triage, urgency scale, the fixed answer shape |
 | [`references/market-argentina.md`](references/market-argentina.md) | Inspection rule, documents, fuel conventions, Spanish parts glossary |
+| [`references/voice.md`](references/voice.md) | Optional voice layer: when a quote helps and when it does not |
 | [`examples/peugeot-207/`](examples/peugeot-207/) | A complete record, with a 33-item schedule |
 | [`scripts/car.py`](scripts/car.py) | The maintenance calculator, standard library only |
 
@@ -148,6 +149,14 @@ the annual inspection.
 
 Read [`examples/peugeot-207/README.md`](examples/peugeot-207/README.md) for the reasoning behind
 the example, including the engine-family trap that makes the 207 a good teaching case.
+
+## Voice (optional)
+
+The skill is named after Aurelio, so it may answer with a short line from the films. It is
+governed: one quote per reply at most, never near a safety warning, never in place of a number,
+no roleplay, and clean lines by default. Rules and the accepted lines are in
+[`references/voice.md`](references/voice.md). Delete `assets/aurelio-quotes.json` and the voice
+file to turn it off.
 
 ## Design rules
 

@@ -279,6 +279,12 @@ file date, and the notes say so.
 - Never delete history from `events.jsonl`. Correct it with a new event that says so.
 - Never let a source tier go unrecorded. An unattributed fact is a rumour.
 
+## Voice (optional)
+
+A short Aurelio quote is allowed as seasoning. One per reply at most, never inside or beside a
+STOP or safety warning, never in place of a number, no roleplay, clean lines by default. See
+`references/voice.md`. This never changes what you recommend.
+
 ## Output style
 
 - Metric units, km, ISO dates. Local currency, named.
